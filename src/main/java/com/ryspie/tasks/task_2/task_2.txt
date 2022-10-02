@@ -1,0 +1,7 @@
+Mają posortowaną listę można skorzystać z wyszukiwania binarnego,
+które porównuje szukany elementy, z wartością środkową i w zależności
+od wyniku odrzuca część, która nie spałnia warunku, dzielać zbiór na połowe.
+Nie potrzeba tworzyć nowych struktur danych.
+
+Złożoność obliczeniowa to: O(log n)
+Złożonośc pamieciowa : O(1)
