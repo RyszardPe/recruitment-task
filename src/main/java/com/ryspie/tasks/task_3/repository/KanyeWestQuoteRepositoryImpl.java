@@ -1,10 +1,12 @@
 package com.ryspie.tasks.task_3.repository;
 
 import com.ryspie.tasks.task_3.model.quote.KanyeWestQuote;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Repository
 public class KanyeWestQuoteRepositoryImpl implements KanyeWestQuoteRepository {
     private final Set<KanyeWestQuote> kanyeWestQuoteSet;
 
