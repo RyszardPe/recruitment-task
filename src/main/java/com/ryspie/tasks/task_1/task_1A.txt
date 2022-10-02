@@ -1,0 +1,8 @@
+Klas abstrakcyjnych możemy użyć, gdy chcemy wspóldzielić część kodu i mamy zaplanowa konkretna hierarchie dziedziczenia.
+Jeśli posiadamy klasę bazową i podklasy, to stosunkowo łatwo możemy dodac kolejną metodę w klasie wyższego rzędu, która będzie
+dostępna dla klas dziedziczących. (Funkcjonalnośc metoed będzie dostępna od razu po implementacji). W mocno rozbudowanych
+hierarchiach dziedziczenia implementacja metod może być jednak problematyczna i trzeba uważać na stosowane metody.
+Aby uniknąć problemu w mocno rozbudowanych strukturach dziedziczenia można zastosować interfejsy. Nie mają one stanu, nie są definiowane pola,
+a jedynie zachowanie. Klasy mogą implementować wiele interfejsów (zachowań), których potrzebują. Trochę większym problemem jest
+dodanie nowej metody w interfejsie, bo wtedy trzeba nadpisać metodę w każdej klasie, która ten interfejs implementuje.
+Interfejsy wydają się prostsze w utrzymaniu przy mocno rozbudowanym kodzie.
