@@ -1,0 +1,26 @@
+Przyznam szczerze, że pierwszy raz spotykam się z pojęciem listy liniowej.
+Nie wiem, czy chodzi o zwykłą listę tablicową, czy wiązaną jednokierunkową.
+
+Na pewno podstawową zasadą miezy tablicą, a listami (kolekcjami) jest taka, że można zadeklarowac tablicę zawierająca typy proste, natomiast w
+Listach muszą to już być obiekty ( typ prosty musi być opakowany).
+
+Tablica: musimy z góry zadeklarować jej wielkość ( ilość elementów) w pamięci.
+Gdy nie wiemy, ile pozycji będzie na tablicy, może być potrzeba deklaracji
+nowej tablicy i przeniesienie do niej zawartości ze starej.
+Tablice sprawdzą się, kiedy znamy ilośc elementów. Zajmują mniej pamięci, niż Listy.
+
+Szybkość odczytu danych z tablicy jest stała O(1), ale wstawianie i usuwanie elementów przyjmuje już postać liniową O(n).
+
+Listy użyjemy, gdu chcemy często manipulować danymi.
+-W tablicy odwołujemy sie do indeksu jesli chcemy zapisac, lub odczytać dane, w Listach zaś wywołujemy odpowiednie metody z intrefejsu List.
+-Lista tablicowa ma swój początkowy rozmiar, ale zemiania sie on dynamicznie.
+-Elementy przechowywane w takiej kolejności jak zostały dodane.
+
+Lista wiązana oparta jest na powiązanych między soba obiektach.
+
+ -Wyszukiwanie obiektów odbywa się sekwencyjnie (trzeba przejśc po kazdym elemencie z listy) O(n), zaś wstawianie i usuwanie przyjmuje stałą wartość O(1) ->
+ wystarczy wskazać na konkretny węzeł.
+ -Opakowane obiekty mogę być rozrzucone po całej pamięci.
+ -do każdego obiektu utworzony jest również obiekt Node, przez co jest bardziej pamięciożerna.
+
+
